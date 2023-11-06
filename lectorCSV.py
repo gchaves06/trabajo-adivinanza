@@ -3,7 +3,6 @@ import random
  
 def sorteador():
     with open('paises.csv', 'r') as csv_file:
-        # Crea un lector CSV
         csv_reader = csv.reader(csv_file)
 
         headers = next(csv_reader)
